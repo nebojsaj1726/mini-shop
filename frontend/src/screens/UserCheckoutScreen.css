@@ -1,0 +1,56 @@
+.cartscreen {
+  display: flex;
+  max-width: 1300px;
+  margin: 2rem auto;
+}
+
+.cartscreen h2 {
+  margin-bottom: 3rem;
+}
+
+.cartscreen-left {
+  flex: 0.6;
+  margin-right: 1rem;
+  background: transparent;
+  padding: 1rem;
+}
+
+.cartscreen-right {
+  flex: 0.4;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  height: fit-content;
+  padding: 1rem;
+  margin-top: 110px;
+}
+
+.cartscreen-info p {
+  padding: 8px;
+}
+
+.cartscreen-info p:first-child {
+  font-weight: bold;
+}
+
+input {
+  width: 220px;
+  height: 35px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.cartscreen-right button {
+  padding: 10px 17px;
+  margin-left: 5px;
+  width: 60%;
+  background: cornflowerblue;
+  color: whitesmoke;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.cartscreen-right button:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,35 @@
+.cartitem {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+
+.cartitem-image {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.cartitem-name {
+  width: 150px;
+}
+
+.cartitem-price {
+  margin-right: 20px;
+}
+
+select {
+  height: 30px;
+}
+
+.cartitem-deletebtn {
+  padding: 5px 17px;
+  color: red;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  border: none;
+  background: transparent;
+}

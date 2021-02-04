@@ -1,0 +1,13 @@
+.homescreen {
+  margin: 1.5rem;
+}
+
+.homescreen-title {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.homescreen-products {
+  display: flex;
+  flex-wrap: wrap;
+}
