@@ -1,20 +1,20 @@
 # thr-task
 Mini MERN application
 
-## Prerequisites
+## Prerequisites  
 Node.js
 
-## Running the app
-Clone or download the app
-Change to client directory
+## Running the app  
+Clone or download the app  
+Change to client directory  
 `cd client`
-Install dependecies
+Install dependecies  
 `npm install`
 Back to root 
 `cd ..`
-Install dependecies
+Install dependecies  
 `npm install`
-Run the app
+Run the app  
 `npm run dev`
 
 
