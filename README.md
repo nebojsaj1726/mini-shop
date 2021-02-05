@@ -11,6 +11,7 @@ Node.js
 Clone or download the app 
 
 Change to client directory  
+
 `cd client`
 
 Install dependecies 
@@ -20,6 +21,7 @@ Install dependecies
 Back to root 
 
 `cd ..`
+
 Install dependecies  
 
 `npm install`
