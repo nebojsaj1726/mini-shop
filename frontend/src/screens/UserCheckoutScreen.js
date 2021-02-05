@@ -12,6 +12,7 @@ import { addOrder } from "../redux/actions/orderActions";
 const UserCheckoutScreen = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [error, setError] = useState(false);
 
   const dispatch = useDispatch();
 
@@ -41,8 +42,15 @@ const UserCheckoutScreen = () => {
   const total = getCartTotal();
 
   const addOrderHandler = () => {
-    dispatch(addOrder(name, email, count, total));
-    dispatch(emptyCart());
+    if (name !== "" && email !== "") {
+      dispatch(addOrder(name, email, count, total));
+      dispatch(emptyCart());
+      setName("");
+      setEmail("");
+      setError(false);
+    } else {
+      setError(true);
+    }
   };
 
   return (
@@ -80,6 +88,9 @@ const UserCheckoutScreen = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
+        {error ? (
+          <div className="validation">* Name and Email required</div>
+        ) : null}
         <button type="button" onClick={addOrderHandler}>
           Confirm Order
         </button>

@@ -24,6 +24,11 @@ const products = [
     imageUrl: "https://source.unsplash.com/pu-PgXMI30I",
     price: 233,
   },
+  {
+    name: "Nike Air Max 90",
+    imageUrl: "https://source.unsplash.com/DMl5gG0yWWY",
+    price: 296,
+  },
 ];
 
 module.exports = products;

@@ -43,7 +43,7 @@ input {
 .cartscreen-right button {
   padding: 10px 17px;
   margin-left: 5px;
-  width: 60%;
+  width: 220px;
   background: cornflowerblue;
   color: whitesmoke;
   cursor: pointer;
@@ -53,4 +53,19 @@ input {
 
 .cartscreen-right button:hover {
   opacity: 0.9;
+}
+
+.validation {
+  margin: 5px;
+  color: red;
+}
+
+@media (max-width: 1250px) {
+  .cartscreen {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cartscreen-right {
+    width: 500px;
+  }
 }

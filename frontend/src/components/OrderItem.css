@@ -1,0 +1,8 @@
+.orderitems {
+  padding: 2rem;
+  display: flex;
+}
+
+.orderitem {
+  flex: 0.25;
+}

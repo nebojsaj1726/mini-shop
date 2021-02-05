@@ -22,6 +22,9 @@ const Navbar = () => {
             </span>
           </Link>
         </li>
+        <li className="order-link">
+          <Link to="/orders">Order History</Link>
+        </li>
         <li>
           <Link to="/">Home</Link>
         </li>

@@ -1,0 +1,9 @@
+.orderhistory-screen {
+  width: 90%;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.orderhistory-screen h2 {
+  margin-bottom: 3rem;
+}
