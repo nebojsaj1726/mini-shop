@@ -6,7 +6,7 @@ Mini MERN application
 
 Node.js
 
-## Running the app  
+## Installing  
 
 Clone or download the app 
 
@@ -26,7 +26,25 @@ Install dependecies
 
 `npm install`
 
-Run the app  
+## Seeding the base
+
+In your MongoDB account, create new project, then create new user and then get the connection string with your username and password.
+
+Create .env file in root folder and type:
+
+```
+PORT=5000
+
+MONGO_URI=<your connection string>
+```
+
+Then:
+
+```
+npm run data:import
+```
+
+## Run the app  
 
 `npm run dev`
 
