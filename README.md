@@ -10,9 +10,9 @@ Node.js
 
 Clone or download the app 
 
-Change to client directory  
+Change to frontend directory  
 
-`cd client`
+`cd frontend`
 
 Install dependecies 
 
